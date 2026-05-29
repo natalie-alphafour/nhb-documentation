@@ -64,7 +64,7 @@ plugins:
   - search
 
 nav:
-  - Home: nhb-overview.md
+  - Home: index.md
   - About:
       - Alen Sultanic: alen-bio.md
       - Coaching Programs: coaching-programs.md
