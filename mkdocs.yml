@@ -1,0 +1,108 @@
+site_name: Nothing Held Back Documentation
+site_description: Official NHB internal documentation
+site_url: https://natalie-alphafour.github.io/nhb-documentation/
+repo_url: https://github.com/natalie-alphafour/nhb-documentation
+repo_name: natalie-alphafour/nhb-documentation
+edit_uri: edit/main/nhb-docs/
+
+docs_dir: nhb-docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: nhb-overview.md
+  - About:
+      - Alen Sultanic: alen-bio.md
+      - Coaching Programs: coaching-programs.md
+      - Plans & Pricing: plans-and-pricing.md
+  - Coaches:
+      - Brandon Vasquez: coaches/coach-brandon-vasquez.md
+      - Charles Kirkland: coaches/coach-charles-kirkland.md
+      - Chris Haddad: coaches/coach-chris-haddad.md
+      - Isaac Lara: coaches/coach-isaac-lara.md
+      - Kevin Sheerin: coaches/coach-kevin-sheerin.md
+      - Loren Pinilis: coaches/coach-loren-pinilis.md
+      - Robert Neckelius: coaches/coach-robert-neckelius.md
+  - Features:
+      - Home Dashboard: features/feature-home-dashboard.md
+      - Library: features/feature-library.md
+      - Courses: features/feature-courses.md
+      - Playlists: features/feature-playlists.md
+      - Bookmarks: features/feature-bookmarks.md
+      - Resources: features/feature-resources.md
+      - Search: features/feature-search.md
+      - Live Calls: features/feature-live-calls.md
+      - Hot Seats: features/feature-hot-seats.md
+      - Fast Feedback: features/feature-fast-feedback.md
+      - Forum: features/feature-forum.md
+      - Discord: features/feature-discord.md
+      - Meetups: features/feature-meetups.md
+      - Mind AI: features/feature-mind-ai.md
+      - Public Profile: features/feature-public-profile.md
+      - Notifications: features/feature-notifications.md
+      - Partner Program: features/feature-partner-program.md
+  - Policies:
+      - Competitor Policy: policies/competitor-policy.md
+      - Income & Results Policy: policies/income-and-results-policy.md
+      - Refund & Cancellation Policy: policies/refund-and-cancellation-policy.md
+  - Community Guidelines: community-guidelines.md
+  - Account Management: account-management.md
+  - Support & Contact: support-and-contact.md
+  - SOPs:
+      - Claude + GitHub SOP: sops/alpha-four-claude-github-sop.md
+  - FAQ: faq.md
+  - Glossary: glossary.md
