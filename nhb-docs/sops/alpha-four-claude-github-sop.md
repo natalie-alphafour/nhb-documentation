@@ -1,6 +1,6 @@
 # Team Collaboration with Claude & GitHub
 **Standard Operating Procedure — Alpha Four Engineering**
-Version 1.0 · June 2025
+Version 1.0 · May 2026
 
 ---
 
